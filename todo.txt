@@ -1,0 +1,21 @@
+TO-DO:
+- botao de registro redirecionar pra o login
+- leading page no index raiz
+- pagina de cada personal
+- direcionar botao de "Ver mais" para a pagina de cada personal
+- consumir api de imagem de mulher no core e remover ./Imagens
+
+DOING:
+- pagina de login
+
+DONE:
+- html e css do core (listagem das personal trainers)
+- pagina de registro/sign up
+
+################################################################
+
+- Status do CRUD:
+    CREATE: ok
+    READ:
+    UPDATE:
+    DELETE:

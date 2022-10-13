@@ -11,8 +11,9 @@
 
 html,
 body {
-    color: white;
-    background-color: #202020;
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
 }
 
 a,
