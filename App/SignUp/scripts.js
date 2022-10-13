@@ -53,6 +53,7 @@ function checkInputs() {
 
     if (formIsValid) {
         saveUser(nameValue, emailValue, passValue);
+        window.location.href = "../SignIn/index.html";
     }
 }
 
