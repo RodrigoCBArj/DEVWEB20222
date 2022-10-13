@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Sign in</title>
+</head>
+
+<body>
+  <header>
+    <p>Olá,</p>
+    <h1>Bem vindo de volta!</h1>
+  </header>
+
+  <form id="form" class="form">
+    <div class="form-control">
+      <!-- <label for="email">Email</label> -->
+      <input type="text" id="email" placeholder="Email" />
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Mensagem de erro</small>
+    </div>
+
+    <div class="form-control">
+      <!-- <label for="password">Senha</label> -->
+      <input type="password" id="password" placeholder="Senha" />
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Mensagem de erro</small>
+    </div>
+
+    <button type="submit">Entrar</button>
+    <p class="passwordRecover">Esqueceu sua senha?
+      <a href="#">Clique aqui</a>
+    </p>
+  </form>
+
+
+  <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>

@@ -16,6 +16,6 @@ DONE:
 
 - Status do CRUD:
     CREATE: ok
-    READ:
+    READ: ok
     UPDATE:
     DELETE:
