@@ -72,9 +72,6 @@ function checkEmail(email) {
 
 function verifyAndSignInIfUserExist(email, password) {
     userObject = JSON.parse(localStorage.getItem(email));
-    
-console.log(userObject)
-console.log(userObject.password)
 
     if (userObject === null) {
         return false;
