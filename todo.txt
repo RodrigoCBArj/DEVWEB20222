@@ -1,7 +1,7 @@
 TO-DO:
-- feature editar dados de usuário [READ & DELETE]
 - leading page no index raiz
 - direcionar botao de "Ver perfil completo" para a pagina de cada personal
+- feature editar dados de usuário [UPDATE & DELETE]
 
 DOING:
 - consumir api de imagem de mulher no core e remover ./Imagens
