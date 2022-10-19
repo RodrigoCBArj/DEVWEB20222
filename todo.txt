@@ -1,10 +1,10 @@
 TO-DO:
-- leading page no index raiz
 
 DOING:
 - consumir api de imagem de mulher no core e remover ./Imagens 
 
 DONE:
+- leading page no index raiz
 - feature editar dados de usuário [UPDATE & DELETE]
 - direcionar botao de "Ver perfil completo" para a pagina de cada personal
 - html e css do core (listagem das personal trainers)

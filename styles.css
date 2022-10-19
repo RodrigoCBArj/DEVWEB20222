@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 * {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
@@ -11,8 +10,8 @@
 
 html,
 body {
-    color: white;
-    background-color: #202020;
+    color: #202020;
+    background-color: #FFFFFF;
 }
 
 a,
@@ -20,4 +19,45 @@ a:hover,
 a:visited {
     color: unset;
     text-decoration: none;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header span {
+    color: #FFD600;
+}
+
+header p {
+    color: #6a7076;
+    font-size: 15px;
+}
+
+/* CONTENT */
+.presentation {
+    text-align: center;
+    margin: 50px;
+}
+
+.presentation p {
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px 0 20px 0; */
+}
+
+.btn {
+    background-color: #FFD600;
+    border: 2px solid #FFD600;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 50px 0 50px;
 }
