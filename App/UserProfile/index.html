@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treino Seguro | Usuário</title>
+</head>
+
+<body>
+
+    <header class="inverted-border-radius">
+        <div class="header-content">
+            <h2 id="divHeader">User name</h2>
+        </div>
+    </header>
+
+    <div class="body-content">
+
+        <div class="user-content">
+            <p class="label">Seu email</p>
+            <div>
+                <p id="divEmail">user@email.com</p>
+            </div>
+        </div>
+
+        <div class="user-content">
+            <p class="label">Alterar senha</p>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <input type="password" id="password" placeholder="Senha atual" />
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" id="new-password" placeholder="Nova senha" />
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" id="password-confirmation" placeholder="Confirmação de senha" />
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+
+        <div class="user-content">
+            <p class="label">Apagar meu usuário</p>
+            <a href="./DeleteUser/index.html">
+                <button class="delete-btn">Apagar</button>
+            </a>
+        </div>
+
+        <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+        <script src="./scripts.js"></script>
+    </div>
+
+</body>
+
+</html>

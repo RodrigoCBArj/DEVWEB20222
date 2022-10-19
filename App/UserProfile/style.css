@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+a,
+a:hover,
+a:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.inverted-border-radius {
+    position: relative;
+    height: 55px;
+    background-color: #FFD600;
+}
+.inverted-border-radius::before {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 50px;
+    bottom: -50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: transparent;
+    box-shadow: 0 -25px 0 0 #FFD600;
+}
+
+.header-content {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+/* CONTENT */
+
+.body-content {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.user-content {
+    background: #fff4bb;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    color: #202020;
+}
+
+.label {
+    font-weight: 300;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #6a7076;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-control {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    background-color: #F7F8F8;
+    border: 2px solid #F7F8F8;
+    display: block;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.form button {
+    background-color: #FFD600;
+    border: 2px solid #FFD600;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    border: 2px solid #e74c3c;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* ERRO OU SUCESSO */
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control.error {
+    margin-bottom: 12px;
+}

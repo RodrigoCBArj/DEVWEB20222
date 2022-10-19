@@ -1,12 +1,12 @@
 TO-DO:
 - leading page no index raiz
 - direcionar botao de "Ver perfil completo" para a pagina de cada personal
-- feature editar dados de usuário [UPDATE & DELETE]
 
 DOING:
-- consumir api de imagem de mulher no core e remover ./Imagens
+- consumir api de imagem de mulher no core e remover ./Imagens 
 
 DONE:
+- feature editar dados de usuário [UPDATE & DELETE]
 - html e css do core (listagem das personal trainers)
 - pagina de registro/sign up
 - pagina de login
@@ -18,5 +18,5 @@ DONE:
 Status do CRUD:
     CREATE: ok
     READ: ok
-    UPDATE:
-    DELETE:
+    UPDATE: ok
+    DELETE: ok
